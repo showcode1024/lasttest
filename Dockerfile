@@ -12,7 +12,7 @@ WORKDIR /app
 # 假设 JAR 文件位于项目根目录下的 target 文件夹中
 COPY target/jdk17jenkins.jar /app.jar
 
-# 暴露 Spring Boot 应用的默认端口8080
+# 暴露 Spring Boot 应用的默认端口8080;
 EXPOSE 8080
 
 # 定义容器启动时执行的命令，运行 JAR 文件
